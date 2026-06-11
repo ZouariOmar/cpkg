@@ -3,16 +3,24 @@
   "url": "https://github.com/zouari-oss/cpkg/raw/main/crun/crun_stacks.json",
   "description": "A package contain many starter projects",
   "version": "1.1.0",
-  "size": "3.8 kB",
+  "size": "3.8kB",
   "lastUpdated": "2026-05-26",
   "languages": [
+    "generic",
     "cx",
     "cxx",
     "java",
     "go",
-    "xml"
+    "symfony"
   ],
   "stacks": {
+    "generic": [
+      {
+        "name": "generic-project-starter",
+        "description": "Environment for starting any project",
+        "url": "https://github.com/zouari-oss/cpkg/raw/main/templates/generic/generic-project-starter.zip"
+      }
+    ],
     "cx": [
       {
         "name": "cx-code-practice-env",
@@ -67,23 +75,7 @@
         "name": "java-project-env",
         "description": "Environment for making java project (with maven)",
         "url": "https://github.com/zouari-oss/cpkg/raw/main/templates/java/java-project-env.zip"
-      }
-    ],
-    "go": [
-      {
-        "name": "go-project-env",
-        "description": "Environment for making go project (with go-blueprint)",
-        "url": "https://github.com/zouari-oss/cpkg/raw/main/templates/go/go-project-env.zip"
-      }
-    ],
-    "git": [
-      {
-        "name": ".java-gitignore",
-        "description": "Java custom .gitignore template",
-        "url": "https://github.com/zouari-oss/cpkg/raw/main/templates/git/.java-gitignore"
-      }
-    ],
-    "xml": [
+      },
       {
         "name": "module-pom.xml",
         "description": "Child POM template",
@@ -103,6 +95,27 @@
         "name": "hibernate.cfg.xml",
         "description": "hibernate configuration template",
         "url": "https://github.com/zouari-oss/cpkg/raw/main/templates/xml/hibernate.cfg.xml"
+      }
+    ],
+    "go": [
+      {
+        "name": "go-project-env",
+        "description": "Environment for making go project (with go-blueprint)",
+        "url": "https://github.com/zouari-oss/cpkg/raw/main/templates/go/go-project-env.zip"
+      }
+    ],
+    "git": [
+      {
+        "name": ".java-gitignore",
+        "description": "Java custom .gitignore template",
+        "url": "https://github.com/zouari-oss/cpkg/raw/main/templates/git/.java-gitignore"
+      }
+    ],
+    "symfony": [
+      {
+        "name": "sfy",
+        "description": "Symfony CLI helper",
+        "url": "https://github.com/zouari-oss/cpkg/raw/main/scripts/symfony/sfy"
       }
     ]
   }
